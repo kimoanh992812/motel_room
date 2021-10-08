@@ -1,0 +1,32 @@
+@import "../../style/style.scss";
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    &-container {
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 0.3rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-logo {
+        img {
+            width: 3rem;
+        }
+    }
+    &-nav {
+        width: 30%;
+        .nav-list {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .nav-link {
+            color: white;
+            font-size: 0.7rem;
+        }
+    }
+}

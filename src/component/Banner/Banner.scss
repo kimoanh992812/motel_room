@@ -1,0 +1,34 @@
+@import "../../style/reset.scss";
+.banner {
+    background-image: url("../../assets/image/banner.jpg");
+    height: 80vh;
+    background-size: cover;
+    &-container {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    &-detail {
+        h3 {
+            font-size: 2.5rem;
+        }
+        .text-middle {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+    }
+    &-button {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3rem;
+        .button-post {
+            background-color: #a01799;
+        }
+        .button-search {
+            background-color: #918e0e;
+        }
+    }
+}
