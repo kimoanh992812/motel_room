@@ -5,6 +5,7 @@
     left: 0;
     right: 0;
     z-index: 100;
+    background-color: rgb(181, 106, 204);
     &-container {
         max-width: 80%;
         margin: 0 auto;
@@ -26,7 +27,8 @@
         }
         .nav-link {
             color: white;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
+            font-weight: bolder;
         }
     }
 }
