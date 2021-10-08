@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import "../src/style/style.scss"
+import 'antd/dist/antd.css';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render( <
